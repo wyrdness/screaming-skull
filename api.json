@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/screaming-skull",
     "maintainers": [
       {
@@ -16,111 +16,302 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "screaming-skull",
     "name": "Screaming Skull",
-    "aliases": [],
-    "category": "GHOST",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Fetch skull", "region": "England", "meaning": "A skull believed to 'fetch' or bring disaster when disturbed" },
+      { "name": "Guardian skull", "region": "England", "meaning": "A skull believed to guard the location it inhabits" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Relic haunting / location-bound ghost",
+    "tags": [
+      "british-folklore",
+      "english-folklore",
+      "skull",
+      "haunting",
+      "relic",
+      "manor-house",
+      "ghost",
+      "curse",
+      "undead",
+      "location-bound"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Screaming Skull is a distinctive phenomenon in British and European folklore involving human skulls that allegedly possess supernatural properties, most notably emitting piercing screams or bringing misfortune when removed from their designated locations.",
-      "full": "The Screaming Skull is a distinctive phenomenon in British and European folklore involving human skulls that allegedly possess supernatural properties, most notably emitting piercing screams or bringing misfortune when removed from their designated locations. These skulls, often associated with specific manor houses, castles, or historic buildings, are believed to be the remains of individuals who died violent or tragic deaths and whose spirits refuse to rest unless their skulls remain in particular places. The phenomenon represents an intersection of death customs, property hauntings, and relic veneration, with documented cases spanning several centuries."
+      "summary": "A screaming skull is a haunted human skull from British folklore believed to scream, cause poltergeist phenomena, or bring misfortune when removed from its home location — most commonly a historic English manor house, farm, or castle.",
+      "full": "Screaming skulls are a phenomenon of primarily English folklore involving human skulls alleged to possess supernatural properties, most notably the ability to emit screams or cause violent phenomena when removed from a specific location where they have been kept, sometimes for centuries. The skulls are typically associated with specific manor houses, farmhouses, or historic buildings and are said to be the remains of individuals who died violent or tragic deaths and whose spirits refuse to rest unless the skull remains in its designated place. Attempting to bury or remove the skull is said to cause it to scream, or to bring storms, cattle deaths, poltergeist phenomena, and other misfortunes until the skull is returned. The tradition represents a convergence of medieval relic veneration, death customs surrounding disinterred remains, and the haunting narrative. The phenomenon is documented from approximately the 1600s onward and is almost exclusively concentrated in England. Notable examples include the Bettiscombe skull (Dorset), the Tunstead Farm skull 'Dickie' (Derbyshire), the skull of St. Ambrose Barlow at Wardley Hall (Greater Manchester), and Anne Griffith's skull at Burton Agnes Hall (East Yorkshire)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English; 'screaming skull' is a descriptive compound term from the folklore tradition rather than a formal naming.",
+      "meaning": "A human skull alleged to scream or cause disturbance when removed from its home location.",
+      "first_use": "Documented in English folklore from approximately the 1600s; first attested in print sources around the 1880s–1890s."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "GHOST",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "GHOST_HAUNTING",
+      "type": "Object haunting / relic spirit",
+      "subtype": "Location-bound",
+      "variant": "British (primarily English)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "poltergeist", "name": "Poltergeist", "relationship": "related", "description": "The phenomena attributed to disturbed screaming skulls (knocking, objects moving, unexplained sounds) overlap with poltergeist activity" },
+      { "id": "haunted-object", "name": "Haunted Object", "relationship": "superset", "description": "Screaming skulls are a specific subtype of the broader haunted object category" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Human skull", "description": "Always a human skull; sometimes specific as to the identity of the deceased individual", "frequency": "always" },
+        { "feature": "Associated with specific location", "description": "Each skull is location-bound — it is believed to belong to a specific house, room, or building", "frequency": "always" },
+        { "feature": "Physical deterioration despite legend", "description": "Some documented skulls (e.g., Bettiscombe) have been analyzed and found to be genuinely ancient human remains", "frequency": "common" }
+      ],
+      "morphology": "Physical human skulls, typically kept in a designated location within a building — a windowsill, niche, shelf, or box. The Bettiscombe skull was scientifically analyzed and found to belong to a prehistoric female rather than the historically associated individual."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Screaming when moved", "description": "The primary attributed ability: the skull screams or causes inexplicable screaming sounds when removed from its home location", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Poltergeist phenomena", "description": "Reported disturbances when skulls are moved include violent knocking, objects displaced, livestock deaths, and crop failures", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Return to location", "description": "Skulls are said to return to their home location if removed, or to make removal impossible through supernatural means", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Protective function", "description": "Some skulls are believed to protect the household when kept properly; their supernatural agency is bidirectional — benevolent when respected, harmful when disturbed", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "defensive",
+      "social_structure": "solitary",
+      "habitat_preference": ["English manor houses", "farmhouses", "historic buildings", "castles"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Remains quiescent when kept in its designated location",
+        "Activates — screaming, causing poltergeist effects — when removed or threatened with removal",
+        "Said to return or resist burial when attempts are made to inter it",
+        "Associated with specific deceased individuals whose wishes were not honored"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Almost exclusively documented in England, with isolated cases in other English-speaking regions. The phenomenon is particularly concentrated in the north of England (Yorkshire, Derbyshire, Lancashire) and the south (Dorset, Somerset).",
+      "continents": ["Europe"],
+      "countries": ["United Kingdom"],
+      "regions": ["Dorset", "Derbyshire", "East Yorkshire", "Greater Manchester", "Somerset", "Cumbria", "East Sussex"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Bettiscombe Manor",
+        "location": {
+          "description": "Bettiscombe Manor, Bettiscombe, Dorset, England",
+          "country": "United Kingdom",
+          "region": "Dorset",
+          "coordinates": { "latitude": 50.77, "longitude": -2.83 }
+        },
+        "sighting_count": 1,
+        "peak_period": "17th century–present",
+        "notes": "The most documented screaming skull; associated in legend with an African slave who requested burial in his homeland. Scientific analysis found the skull belonged to a prehistoric female."
+      },
+      {
+        "name": "Tunstead Farm ('Dickie')",
+        "location": {
+          "description": "Tunstead Farm, Derbyshire, England",
+          "country": "United Kingdom",
+          "region": "Derbyshire"
+        },
+        "sighting_count": 1,
+        "peak_period": "17th century–present",
+        "notes": "Skull known as 'Dickie'; one of the most famous English screaming skulls with extensive documented tradition"
+      },
+      {
+        "name": "Burton Agnes Hall",
+        "location": {
+          "description": "Burton Agnes Hall, East Yorkshire, England",
+          "country": "United Kingdom",
+          "region": "East Yorkshire",
+          "coordinates": { "latitude": 54.01, "longitude": -0.30 }
+        },
+        "sighting_count": 1,
+        "peak_period": "17th century–present",
+        "notes": "Skull said to belong to Anne Griffith, who died in 1620 requesting that her skull remain in the house she loved"
+      },
+      {
+        "name": "Wardley Hall",
+        "location": {
+          "description": "Wardley Hall, Worsley, Greater Manchester, England",
+          "country": "United Kingdom",
+          "region": "Greater Manchester"
+        },
+        "sighting_count": 1,
+        "peak_period": "17th century–present",
+        "notes": "Skull said to belong to St. Ambrose Barlow, Catholic martyr executed in 1641; now the official residence of the Roman Catholic Bishop of Salford"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1600-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Earliest documented accounts from the 17th century; first major print documentation in J.H. Ingram, The Haunted Homes and Family Traditions of Great Britain (1897)"
+      },
+      "peak_activity_periods": [
+        { "period": "17th–19th century", "description": "Primary period of skull establishment and legend formation in English manor houses" },
+        { "period": "1880s–1900s", "description": "Peak of formal documentation in Victorian-era ghost story collections and antiquarian publications" }
+      ],
+      "seasonal_patterns": "No specific seasonal pattern; disturbances are triggered by human action (attempted removal) rather than calendar."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The screaming skull phenomenon intersects with several threads of English cultural history: medieval relic veneration (skulls of saints kept for their protective power), pre-Christian traditions of ancestor skulls as household guardians, and post-Reformation anxiety about improper burial. The specific legend type — the displaced spirit who curses removal — is attested from the 17th century onward.",
+      "earliest_accounts": "The Bettiscombe Manor skull is documented in J.H. Ingram's The Haunted Homes and Family Traditions of Great Britain (1897), which references an 1883 investigation. The tradition at Bettiscombe appears to date to the late 17th or early 18th century.",
+      "folklore_connections": "Connected to the broader tradition of restless spirits requiring proper burial or honoring of final requests. Related to Irish keening traditions, Continental European dead-man's-hand folklore, and the medieval European tradition of holy relics with miraculous properties."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1620-01-01", "event": "Anne Griffith dies at Burton Agnes Hall, Yorkshire; legend records she requested her skull remain in the house", "significance": "Establishes the Burton Agnes Hall skull legend", "source": "Local tradition; documented in Victorian folklore collections" },
+      { "date": "1641-01-01", "event": "St. Ambrose Barlow executed; skull said to be kept at Wardley Hall", "significance": "Establishes the Wardley Hall skull legend", "source": "Catholic martyrology; local tradition" },
+      { "date": "1883-01-01", "event": "Investigation of the Bettiscombe skull documented; associated with story of an African slave requesting burial in his homeland", "significance": "One of the earliest documented investigations of a screaming skull", "source": "Ingram, J.H. (1897), The Haunted Homes and Family Traditions of Great Britain" },
+      { "date": "1897-01-01", "event": "J.H. Ingram publishes The Haunted Homes and Family Traditions of Great Britain, systematically documenting multiple screaming skull cases", "significance": "First major compendium of English screaming skull cases", "source": "Ingram, J.H. (1897)" },
+      { "date": "1911-01-01", "event": "F. Marion Crawford's short story 'The Screaming Skull' published", "significance": "Major popularization of the legend in fiction", "source": "Crawford, F.M. (1911)" },
+      { "date": "1958-01-01", "event": "Horror film The Screaming Skull released", "significance": "Brought the legend to wider mid-20th-century audience", "source": "The Screaming Skull (1958 film)" }
+    ],
+    "modern_era": "Several screaming skull locations in England remain active tourist and visitor destinations. The Bettiscombe skull was scientifically analyzed and identified as prehistoric female remains — not the African slave of legend — but the tradition continues. Wardley Hall remains the residence of the Catholic Bishop of Salford, and the skull continues to be publicly associated with St. Ambrose Barlow."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 7,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 7,
+      "debunked": 0,
+      "date_range": { "earliest": "1600", "latest": "present" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "screaming-skull-bettiscombe",
+        "type": "skull",
+        "name": "Bettiscombe Manor skull",
+        "date": "1883",
+        "description": "Human skull kept at Bettiscombe Manor, Dorset. Legend associates it with an African slave. Scientific analysis identified it as prehistoric female remains, not consistent with the historical narrative.",
+        "location": "Bettiscombe Manor, Dorset, England",
+        "status": "disputed",
+        "analysis": "The skull is genuinely old human remains, but its legendary association is not supported by physical analysis. The screaming legend appears to be a later folk accretion.",
+        "source": "Ingram, J.H. (1897); archaeological analysis"
+      },
+      {
+        "id": "screaming-skull-tunstead",
+        "type": "skull",
+        "name": "Tunstead Farm skull ('Dickie')",
+        "date": "1600-01-01",
+        "description": "Skull kept at Tunstead Farm, Derbyshire; known as 'Dickie'. One of the most famous and extensively documented screaming skulls in England.",
+        "location": "Tunstead Farm, Derbyshire, England",
+        "status": "unverified",
+        "analysis": "The skull is a real human skull with extensive local legend attached. No scientific analysis of its origins has been widely published.",
+        "source": "Victorian-era folklore collections"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Restless spirit bound to location",
+        "description": "The skull retains a portion of the deceased person's spirit, which manifests as disturbance when the skull is removed from the location the person wished to remain associated with. The screaming is the spirit's protest.",
+        "proponents": ["Folkloric tradition across documented cases"],
+        "evidence_cited": ["Consistent pattern across multiple independent cases of reported disturbance when skulls are moved", "Association with specific deathbed requests in several cases"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Structural acoustics and building settlement",
+        "description": "Unexplained sounds in old manor houses — attributed to screaming skulls — are explainable by the settling of old timberwork, wind effects through stone buildings, and the acoustic properties of historic structures. The skull becomes the focus of an existing sonic environment.",
+        "proponents": ["Skeptical analysts of English ghost folklore"],
+        "evidence_cited": ["Old stone and timber-frame buildings are acoustically complex", "All documented screaming events occur in historic structures with these properties", "No verified recording of skull screaming exists"]
+      },
+      {
+        "name": "Fabricated or embellished legend to protect heirlooms",
+        "description": "Skull-keeping legends may have been deliberately cultivated or embellished to deter removal of family relics (whether genuinely religious relics or curiosities) from historic properties.",
+        "proponents": ["Folklore historians"],
+        "evidence_cited": ["Several skulls are associated with identifiable historical figures whose remains have other religious or social significance", "The protective legend serves the practical function of preventing disturbance of valued objects"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "English manor house ghost tradition",
+        "Relic veneration practices derived from medieval Catholic tradition",
+        "Victorian-era ghost story collecting and documentation"
+      ],
+      "stories": [
+        "Anne Griffith of Burton Agnes Hall (d. 1620) requested her skull remain in the house; when removed her ghost disturbed the household until the skull was reinstated",
+        "The Bettiscombe skull associated with an enslaved African who requested burial in his homeland; legend holds the skull screams when burial is attempted",
+        "Tunstead Farm's 'Dickie' reportedly prevents land sale and protects the property from misfortune"
+      ],
+      "beliefs": "The screaming skull tradition reflects a belief that the soul can remain attached to the physical skull, and that the proper final resting place — whether a specific building or the homeland of the deceased — must be honored for the spirit to rest. The skull functions simultaneously as relic, guardian, and trap for an unquiet spirit."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "F. Marion Crawford, 'The Screaming Skull' (short story, 1911)",
+        "J.H. Ingram, The Haunted Homes and Family Traditions of Great Britain (1897)",
+        "Nina Bawden, The Witch's Daughter — references screaming skull tradition",
+        "Eva Ibbotson, The Secret of Platform 13 — references screaming skull tradition"
+      ],
+      "film_tv": [
+        "The Screaming Skull (1958 horror film)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Bettiscombe Manor and Burton Agnes Hall are tourist destinations partly because of their skull legends"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "J.H. Ingram", "affiliation": "Victorian folklorist and author", "contribution": "Published The Haunted Homes and Family Traditions of Great Britain (1897), the primary compendium of English screaming skull cases", "period": "1880s–1900s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Screaming skulls are periodically studied by English local historians, folklorists, and paranormal investigators. The Bettiscombe skull was the subject of archaeological analysis that contradicted the historical legend."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "ingram-1897",
+      "type": "book",
+      "title": "The Haunted Homes and Family Traditions of Great Britain",
+      "authors": ["J.H. Ingram"],
+      "publication": "Gibbings and Company",
+      "date": "1897"
+    },
+    {
+      "id": "crawford-1911",
+      "type": "other",
+      "title": "The Screaming Skull",
+      "authors": ["F. Marion Crawford"],
+      "date": "1911",
+      "notes": "Short horror story; major popularization of the screaming skull legend in fiction"
+    },
+    {
+      "id": "wikipedia-screaming-skull",
+      "type": "website",
+      "title": "Screaming skull",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Screaming_skull",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
